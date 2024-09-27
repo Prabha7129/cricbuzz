@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(180, 147, 147);
+   
+}
+header{
+    background-color: rgb(5, 147, 104);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 25px;
+   
+}
+#img-a{
+    width: 100px;
+    height: 40px;
+    margin: 10px;
+    
+}
+#card1{
+    display: inline-block;
+    width: 360px;
+    height: 230px;
+    background-color: gray;
+    border-radius: 10px;
+}
+#part1-a{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 160px;
+    background-color: white;
+    padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: red;
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+    color: white;
+    
+}
+#s1-a{
+    color: red;
+    font-size: 25px;
+}
+#s1-b{
+    float: right;
+}
+#card2{
+    display: inline-block;
+    width: 360px;
+    height: 230px;
+    background-color: gray;
+    border-radius: 10px;
+}
+#part2-a{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 160px;
+    background-color: white;
+    padding: 10px;
+}
+
+#button{
+    border-radius: 10px;
+    background-color:red;
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+    color: white;
+    
+}
+#s2-a{
+    color: red;
+    font-size: 25px;
+}
+#s2-b{
+    float: right;
+}
+
+#card3{
+    display: inline-block;
+    width: 360px;
+    height: 230px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#part3-a{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 160px;
+    background-color: white;
+    padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: red;
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+    color: white;
+    
+}
+#s3-a{
+    color: red;
+    font-size: 25px;
+}
+#s3-b{
+    float: right;
+}
+
+#card4{
+    display: inline-block;
+    width: 360px;
+    height: 230px;
+    background-color: gray;
+    border-radius: 10px;
+}
+#part4-a{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 160px;
+    background-color: white;
+    padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: red;
+    height: 20px;
+    width: 40px;
+    font-size: 10px;
+    color: white;
+    
+}
+#s4-a{
+    color: red;
+    font-size: 23px;
+}
+#s4-b{
+    float: right;
+}
