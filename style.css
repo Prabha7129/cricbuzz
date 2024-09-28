@@ -17,21 +17,25 @@ header{
     margin: 10px;
     
 }
-#card1{
+span:hover{
+    display: inline-block;
+    color: rgb(38, 81, 119);
+}
+#card1,#card2,#card3,#card4{
     display: inline-block;
     width: 360px;
     height: 230px;
     background-color: gray;
     border-radius: 10px;
+    vertical-align: top;
 }
-#part1-a{
+#part-1{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 160px;
     background-color: white;
     padding: 10px;
 }
-
 button{
     border-radius: 10px;
     background-color: red;
@@ -39,108 +43,15 @@ button{
     width: 40px;
     font-size: 10px;
     color: white;
+    float: right;
     
 }
-#s1-a{
+span-1{
     color: red;
     font-size: 25px;
 }
-#s1-b{
+#p-2{
     float: right;
-}
-#card2{
-    display: inline-block;
-    width: 360px;
-    height: 230px;
-    background-color: gray;
-    border-radius: 10px;
-}
-#part2-a{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 160px;
-    background-color: white;
-    padding: 10px;
+    margin-top: 10px;
 }
 
-#button{
-    border-radius: 10px;
-    background-color:red;
-    height: 20px;
-    width: 40px;
-    font-size: 10px;
-    color: white;
-    
-}
-#s2-a{
-    color: red;
-    font-size: 25px;
-}
-#s2-b{
-    float: right;
-}
-
-#card3{
-    display: inline-block;
-    width: 360px;
-    height: 230px;
-    background-color: gray;
-    border-radius: 10px;
-}
-
-#part3-a{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 160px;
-    background-color: white;
-    padding: 10px;
-}
-
-button{
-    border-radius: 10px;
-    background-color: red;
-    height: 20px;
-    width: 40px;
-    font-size: 10px;
-    color: white;
-    
-}
-#s3-a{
-    color: red;
-    font-size: 25px;
-}
-#s3-b{
-    float: right;
-}
-
-#card4{
-    display: inline-block;
-    width: 360px;
-    height: 230px;
-    background-color: gray;
-    border-radius: 10px;
-}
-#part4-a{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 160px;
-    background-color: white;
-    padding: 10px;
-}
-
-button{
-    border-radius: 10px;
-    background-color: red;
-    height: 20px;
-    width: 40px;
-    font-size: 10px;
-    color: white;
-    
-}
-#s4-a{
-    color: red;
-    font-size: 23px;
-}
-#s4-b{
-    float: right;
-}
