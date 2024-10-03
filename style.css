@@ -27,6 +27,9 @@ span:hover{
     color: blue;
     
 }
+div{
+    padding: 5px;
+}
 
 #card1,#card2,#card3,#card4{
     display: inline-block;
@@ -42,6 +45,7 @@ span:hover{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 160px;
+    
     background-color: white;
     padding: 10px;
 }
@@ -80,13 +84,14 @@ button{
 #d-p1,#d-p2,#d-p3,#d-p4,#d-p5{
    background-color: rgb(174, 172, 172);
    display: inline-block;
-   margin: 5px;
-   font-size: 20px;
+   margin:5px;
+   font-size: 26px;
 }
 #div1{
     background-color: white;
-    height: 1200px;
-    width: 200px;
+    
+    width: 360px;
+    display: inline-block;
 }
 h3{
     color: green;
@@ -96,4 +101,13 @@ h3{
 }
 p{
     color: rgb(148, 145, 145);
+}
+#div2{
+    
+    
+    display: inline-block;
+    background-color: white;
+    width: 600px;
+    
+    vertical-align: top;
 }
