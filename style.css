@@ -9,9 +9,8 @@ header{
     display: flex;
     color: white;
     font-size: 25px;
-   
 }
-#h-1{
+#head-1{
     background-color: black;
     height: 60px;
     font-size: 20px;
@@ -20,12 +19,10 @@ header{
     width: 100px;
     height: 40px;
     margin: 10px;
-    
 }
 span:hover{
     display: inline-block;
     color: blue;
-    
 }
 div{
     padding: 5px;
@@ -38,8 +35,6 @@ div{
     background-color:rgb(143, 141, 141);
     border-radius: 10px;
     vertical-align: top;
-
-    
 }
 #part-1{
     border-top-left-radius: 10px;
@@ -71,7 +66,7 @@ button{
     background-color:white;
     justify-content: space-around;
     align-items: center;
-    
+    display: flex;
     color: black;
     
     
@@ -83,31 +78,47 @@ button{
 }
 #d-p1,#d-p2,#d-p3,#d-p4,#d-p5{
    background-color: rgb(174, 172, 172);
-   display: inline-block;
+
    margin:5px;
-   font-size: 26px;
+   font-size: 20px;
 }
 #div1{
     background-color: white;
-    
+    height: 1009px;
     width: 360px;
-    display: inline-block;
+    
 }
 h3{
     color: green;
 }
-#div-a{
-    padding: 10px;
-}
+
 p{
     color: rgb(148, 145, 145);
 }
 #div2{
     
-    
-    display: inline-block;
     background-color: white;
     width: 600px;
+    margin-left: 10px;
     
-    vertical-align: top;
+}
+
+#div-c{
+    background-color: white;
+    width: 400px;
+    
+    
+    
+}
+#div-d{
+    background-color: white;
+    
+    width: 400px;
+    
+}
+#div00{
+display: flex;
+}
+#div-b,#div-a,a{
+    text-decoration: none;
 }
