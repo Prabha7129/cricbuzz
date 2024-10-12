@@ -4,9 +4,9 @@ body{
 }
 header{
     background-color: rgb(5, 147, 104);
-    justify-content: space-around;
-    align-items: center;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: white;
     font-size: 25px;
 }
@@ -14,19 +14,22 @@ header{
     background-color: black;
     height: 60px;
     font-size: 20px;
+    justify-content: space-around;
 }
 #img-a{
     width: 100px;
     height: 40px;
     margin: 10px;
 }
-span:hover{
-    display: inline-block;
+.hii span{
+    margin-right: 4rem;
+}
+.hii span:hover{
+    
     color: blue;
 }
-div{
-    padding: 5px;
-}
+
+
 
 #card1,#card2,#card3,#card4{
     display: inline-block;
@@ -35,12 +38,14 @@ div{
     background-color:rgb(143, 141, 141);
     border-radius: 10px;
     vertical-align: top;
+    margin-left: 10px;
 }
 #part-1{
+    
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 160px;
-    
+    width: 340px;
     background-color: white;
     padding: 10px;
 }
@@ -77,16 +82,37 @@ button{
     margin: 5px;
 }
 #d-p1,#d-p2,#d-p3,#d-p4,#d-p5{
-   background-color: rgb(174, 172, 172);
-
-   margin:5px;
+   background-color: rgb(241, 237, 237);
+padding: 10px;
+   margin: 5px;
    font-size: 20px;
 }
+
 #div1{
+
+    
+    
+    display: inline-block;
+    vertical-align: top;
+
+}
+#box1{
+    
     background-color: white;
-    height: 1009px;
+    height: 1010px;
     width: 360px;
     
+    
+    padding: 10px;
+}
+#box2{
+    position: relative;
+    background-color: white;
+    width: 360px;
+    
+    padding: 10px;
+    
+    top: -15px;
 }
 h3{
     color: green;
@@ -96,29 +122,49 @@ p{
     color: rgb(148, 145, 145);
 }
 #div2{
+    display: inline-block;
     
+    
+    
+}
+#boxa{
+
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    
+}
+#boxb{
+    position: relative;
     background-color: white;
     width: 600px;
     margin-left: 10px;
+    padding: 10px;
+    position: relative;
+    top: -15px;
+    left:-10px;
+}
+#div3{
+    vertical-align: top;
+    margin-left: -10px;
+    display: inline-block;
+}
+#div-a{
+    padding: 10px;
+    background-color: white;
+    width: 470px;
     
+  
+}
+#div-b{
+    background-color: white;
+    width: 490px;
+    position: relative;
+    top: -15px;
 }
 
-#div-c{
-    background-color: white;
-    width: 400px;
-    
-    
-    
-}
-#div-d{
-    background-color: white;
-    
-    width: 400px;
-    
-}
-#div00{
-display: flex;
-}
-#div-b,#div-a,a{
+
+
+a{
     text-decoration: none;
 }
